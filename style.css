@@ -128,3 +128,7 @@ main {
 box-shadow: 0 0 40px 40px #A9A9A9 inset;
     color: white;
 }
+
+.nav{
+    color: #000;
+}
