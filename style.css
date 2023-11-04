@@ -48,6 +48,7 @@ main {
 .menu {
     margin-left: 30px;
     margin-top: 30px;
+    
 }
 
 .menu .menu-faketrigger {
@@ -57,6 +58,7 @@ main {
     height: 35px;
     opacity: 0;
     cursor: pointer;
+    
 
 }
 
@@ -76,20 +78,24 @@ main {
     background-color: #cdcdcd;
     border-radius: 3px;
     transition: all ease .35s;
+    
 }
 
 .menu .menu-faketrigger:checked~.menu-lines span {
    background-color: #232323;
+  
 }
 
 .menu .menu-faketrigger:checked~.menu-lines span:nth-child(1) {
     transform-origin: 0% 0%;
     transform: rotate(45deg) scaleX(1.25);
+    
 }
 
 
 .menu .menu-faketrigger:checked~.menu-lines span:nth-child(2) {
     opacity: 0;
+    
 }
 
 .menu .menu-faketrigger:checked~.menu-lines span:nth-child(3) {
@@ -105,9 +111,11 @@ main {
     width: 260px;
     height: calc(100vh - 100px);
     padding-top: 100px;
-    background-color: #ededed;
+    background-color: lightblue;
     margin-left: -300px;
     transition: all ease .2s;
+    border-radius: 20px;
+    
 }
 
 .menu .menu-faketrigger:checked~ul {
@@ -126,7 +134,7 @@ main {
 }
 
 .menu ul li a:hover {
-    color: #999;
+    color: red;
 
 }
 
@@ -140,6 +148,6 @@ box-shadow: 0 0 40px 40px #A9A9A9 inset;
     color: white;
 }
 
-.nav{
+.nav {
     color: #000;
 }
