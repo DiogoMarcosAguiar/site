@@ -1,4 +1,15 @@
-
+.product2 {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 180px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: greenyellow;
+    text-shadow: 20px;
+    
+}
 
 
 .imagem01 {
